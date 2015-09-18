@@ -9,7 +9,7 @@ Setup
 ----------
 * Clone repository:
 ```console
-$ git clone https://github.com/bencasalino/js-cr-2.git
+$ git clone https://github.com/bencasalino/js-cr2.git
 ```
 * Open 'index.html' in a browser to begin.
 * Enjoy!
