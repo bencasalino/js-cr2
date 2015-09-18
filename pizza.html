@@ -10,10 +10,63 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-12">
                     <h1>Ben's Pizzeria  </h1>
                     <h4> Pick your Pizza below!</h4>
+                   </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4> pick a topping!</h4>
+                      <!--  topping options -->
+                       <label class="checkbox-inline"><input type="checkbox" name="toppings" value="pepperoni">pepperoni</label>
 
-        </div>
-    </body>
+                       <label class="checkbox-inline"><input type="checkbox" name="toppings" value="veggie">veggie</label>
+
+                       <label class="checkbox-inline"><input type="checkbox" name="toppings" value="sausage">sausage</label>
+                     </div>
+                  </div>
+                   <hr>
+                   <div class="row">
+                     <div class="col-md-4">
+                      <h4>pick a size!</h4>
+                        <label class="checkbox-inline"><input type="checkbox" name="pizzaSize" value="sm">Small</label>
+
+                        <label class="checkbox-inline"><input type="checkbox" name="pizzaSize" value="md">Medium</label>
+
+                        <label class="checkbox-inline"><input type="checkbox" name="pizzaSize" value="lg">Large</label>
+                   </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                   <div class="col-md-4">
+                       <div class="form-group">
+                           <h4>pick a pizza type! </h4>
+                           <label class="checkbox-inline"><input type="checkbox" name="pizzaType" value="hawaiian">hawaiian</label>
+                           <label class="checkbox-inline"><input type="checkbox" name="pizzaType" value="tomato">tomato</label>
+                           <label class="checkbox-inline"><input type="checkbox" name="pizzaType" value="chicken">chicken</label>
+                       </div>
+                   </div>
+                  </div>
+                   <hr>
+                   <div class="row">
+                   <div class="col-md-4">
+                    <!-- order button  -->
+                       <button type="submit" class="btn">Place your order here!! </button>
+                   </div>
+               </form>
+              </div>
+         <div class="row">
+           <div class="col-md-4">
+               <div id="show-order">
+                   <h2>Your Order:</h2>
+                   <p>Cart: <span class="pizzas"></span></p>
+                   <p>Total Cost: <span class="totalCost"></span></p>
+                   <!-- should display total order here  -->
+               </div>
+           </div>
+         </div>
+      </div>
+  </body>
 </html>
