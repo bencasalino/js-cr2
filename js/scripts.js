@@ -42,3 +42,9 @@ Order.prototype.calculateTotal = function() {
     }
     this.orderTotal = pizzaTotal;
 };
+
+
+//document ready (don't do anything until all the HTML is on the page)
+//when the form is submitted, get each value out of it
+//use those values to create Topping(s), Pizza(s), and the Order
+//display the total cost
